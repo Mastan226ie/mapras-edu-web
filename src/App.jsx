@@ -8,6 +8,7 @@ import Campus from './Components/Campus/Campus'
 import Testimonals from './Components/Testimonals/Testimonals'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import VideoPlyr from './Components/VideoPlyr/VideoPlyr'
 
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
         <Contact/>
         <Footer/>
       </div>
-      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+      <VideoPlyr playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }

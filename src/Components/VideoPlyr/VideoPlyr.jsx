@@ -1,5 +1,7 @@
 import React from "react";
 import "./VideoPlyr.css";
+import collegevideo from "../../assets/studentvideo.mp4";
+import { useRef } from "react";
 
 const VideoPlyr = ({ playState, setPlayState }) => {
   const player = useRef(null);
@@ -18,6 +20,6 @@ const VideoPlyr = ({ playState, setPlayState }) => {
     >
       <video src={collegevideo} autoPlay muted controls></video>
     </div>
-  );
-};
-export default VideoPlyr;
+  )
+}
+export default VideoPlyr
